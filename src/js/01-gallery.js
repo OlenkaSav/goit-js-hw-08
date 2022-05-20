@@ -12,7 +12,7 @@ function createGalleryMarkup(galleryItems) {
   <img class="gallery__image" src="${preview}" alt="${description}" />
 </a>`;
 }).join('');
-}
+};
 
 galleryContainer.insertAdjacentHTML('beforeend', galleryMarkup);
 
